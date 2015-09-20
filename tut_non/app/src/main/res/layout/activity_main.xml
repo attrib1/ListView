@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/textchang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="43dp"
+        android:text="@string/arnon"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff5dff20" />
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textchang"
+        android:layout_marginTop="40dp"
+        android:text="ข้อtoast" />
+
+    <Button
+        android:id="@+id/btnNewPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnChangText"
+        android:layout_marginTop="25dp"
+        android:text="หน้าใหม่" />
+
+    <Button
+        android:id="@+id/btnChangText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonToast"
+        android:text="เปลียนข้อความ" />
+
+    <Button
+        android:id="@+id/btnNewPage2"
+        android:text="หน้า2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNewPage" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNewPage3"
+        android:text="หน้า3"
+        android:layout_below="@+id/btnNewPage2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/btndai"
+        android:layout_below="@+id/btnNewPage3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
